@@ -1,0 +1,16 @@
+---------------------------------
+Version 2.0.0 / August 20, 2023
+---------------------------------
+- New Home Page 7 Added
+- New Header 7 Added
+- New Footer 7 Added
+- Jupi Core & Quomodo Core Plugin Upgrade & Added
+- Language Pot file update
+- Woocommerce Template Update
+- Elementsready Latest Version Compatability.
+- Elementor Latest Version Compatability.
+- Elementor Pro Latest Version Compatability.
+- WooCommerce Latest Version Compatability.
+- Fixed responsive Issue 
+- Optimized Assets.
+- Optimized Js & Css File.

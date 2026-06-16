@@ -1,0 +1,118 @@
+@media only screen and (max-width: 1200px) {
+    .primary-menu ul.nav li a {
+        padding:15px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .contact-info,.log-buttons {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-info > a {
+        margin: 10px 10px 0;
+        padding: 0;
+    }
+
+    .log-buttons a {
+        margin: 0 10px 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .mainmenu-area .action-button {
+        padding: 6px 12px;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .comment-form .comment-form-author,
+    .comment-form .comment-form-email {
+        width: 100%;
+    }
+    #scrollUp {
+        bottom: 15px;
+        right: 15px;
+    }
+    .social-share,
+    .single-tags {
+        width: 100%
+    }
+    .single-post-navigation .nav-links {
+        display: block;
+    }
+    .single-post-navigation .nav-links .nav-previous,
+    .single-post-navigation .nav-links .nav-next {
+        width: 100%;
+        max-width: 100%;
+        text-align: center
+    }
+    .posts-list .post-content,
+    .content-boundary {
+        border: none;
+    }
+    .admin-bar .mainmenu-area.affix {
+        top: 0px;
+    }
+    .menu-search-form .search-input {
+        padding: 30px 15px;
+        font-size: 16px;
+    }
+    .animated {
+        /*CSS transitions*/
+        -webkit-transition-property: none !important;
+        -o-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -webkit-transform: none !important;
+        -ms-transform: none !important;
+            transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        animation: none !important;
+    }
+    .sidebar.main-sidebar {
+        padding-left: 0px;
+        margin-top: 50px;
+    }
+    .post-title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .comment-list .comment-body .comment-author img {
+        position: relative;
+        margin-bottom: 15px;
+    }
+    .comment-list .comment-body .comment-author .fn {
+        display: block;
+    }
+    .comment-list .comment-body {
+        padding-left: 0;
+    }
+    .comment-list .children {
+        margin-left: 30px;
+    }
+    .header-area .page-title {
+        font-size: 36px !important;
+        line-height: 46px !important;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (max-width: 480px) {
+    .xs-full {
+        width: 100%;
+    }
+    .mainmenu-area .equal-height {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    /* .menu-button-area {
+        display: none;
+    } */
+}
